@@ -1,0 +1,20 @@
+.article {
+  max-width: 600px;
+  width: 90%;
+  // position: absolute;
+  // top: 80%;
+  // left: 50%;
+  // transform: translate(-50%, -50%);
+  padding: 25px;
+  border-radius: 15px;
+  background-color: white;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+
+  &__text{
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+  }
+}

@@ -1,0 +1,40 @@
+.radio-label {
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 500;
+  padding: 0px 15px;
+	line-height: 34px;
+	border: 1px solid #9ccdff;
+	border-radius: 10px;
+  width: 65px;
+
+  &_checked {
+    background: #ffe0a6;
+  }
+
+  &:hover {
+    background-color: #d2e9ff;
+    opacity: 0.6;
+  }
+}
+
+
+
+.radio-input {
+  // cursor: pointer;
+  // transition: 0.3s;
+  // margin-right: 10px;
+  display: none;
+
+  // &:checked {
+  //   background: #ffe0a6;
+  // }
+
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+// .radio-label .radio-input:checked {
+//   background-color: #d2e9ff;
+// }
